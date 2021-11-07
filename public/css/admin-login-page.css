@@ -1,0 +1,33 @@
+.admin-login-page .heading{
+    color:rgb(238, 238, 245);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 28px;
+    background-color: rgb(52, 163, 253);
+    padding: 20px;
+    text-align: center;;
+}
+
+@media(max-width:768px){
+    .admin-login-page .heading{
+        font-size: 20px;
+    }
+}
+.admin-login-page .links li{
+    list-style-type: none;
+}
+.admin-login-page .links li a{
+    font-size: 20px;
+    color: rgb(52, 163, 253);
+    font-weight: bold;
+    text-decoration: none;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;;
+}
+.admin-login-page .links li a:hover{
+    color: white;
+    background-color: rgb(52, 163, 253);
+}
